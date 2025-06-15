@@ -3,8 +3,6 @@
 A fully-featured backend for an online bookstore built with **Node.js**, **Express**, and **MongoDB**.  
 Supports user authentication, customer reviews, and order placement.
 
----
-
 ## 🛠️ Tech Stack
 
 - **Node.js** + **Express.js**
@@ -36,8 +34,6 @@ backend/
 | POST   | `/auth/api-key`  | Generate a new API key     |
 | GET    | `/auth/me`       | Get logged-in user profile |
 
----
-
 ## 📚 Book Routes
 
 | Method | Endpoint     | Access | Description    |
@@ -48,8 +44,6 @@ backend/
 | PUT    | `/books/:id` | Admin  | Update a book  |
 | DELETE | `/books/:id` | Admin  | Delete a book  |
 
----
-
 ## ✍️ Review Routes
 
 | Method | Endpoint                 | Access    | Description       |
@@ -57,8 +51,6 @@ backend/
 | POST   | `/books/:bookId/reviews` | Logged-in | Add a review      |
 | GET    | `/books/:bookId/reviews` | Public    | View all reviews  |
 | DELETE | `/reviews/:id`           | Owner     | Delete own review |
-
----
 
 ## 🛒 Order Routes
 
@@ -68,14 +60,12 @@ backend/
 | GET    | `/orders`     | Logged-in | View own orders     |
 | GET    | `/orders/:id` | Logged-in | View specific order |
 
----
-
 ## 🛠️ Getting Started
 
 ## 1️⃣ Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/bookstore-backend.git
+git clone https://github.com/Sah-Rahul/BookBazaar-REST-API-for-Online-Bookstore.git
 cd backend
 
 ## Install Dependencies
@@ -88,6 +78,7 @@ JWT_SECRET=your_secret_key
 
 ##  Run the Server
 npm run dev
+
 ```
 
 ## ✅ Future Enhancements
